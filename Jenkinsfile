@@ -22,7 +22,8 @@ pipeline {
         }
         stage('docker push'){
         steps {
-         bat 'docker push yogitachpurey/htmlimage'
+         bat 'docker push yogitachourey/htmlimage'
+
         }
            }
     }
