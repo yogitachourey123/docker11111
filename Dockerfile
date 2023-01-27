@@ -1,5 +1,3 @@
 FROM nginx:alpine
 
-COPY . .
-
-CMD ["echo" , "hello" , "World"]
+COPY . /usr/share/nginx/html
